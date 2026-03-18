@@ -1,0 +1,9 @@
+[project]
+name = "fase3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "flet>=0.82.2",
+]
