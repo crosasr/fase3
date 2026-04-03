@@ -1,6 +1,7 @@
 # dia37.py — Alertas y diálogos
 # Banner de stock crítico + SnackBar con acción + BottomSheet
 
+from flet import Border
 import flet as ft
 import database as db
 
@@ -441,7 +442,7 @@ def main(page: ft.Page):
                         ],
                     ),
                     padding=15,
-                    border=ft.border.all(1, ft.Colors.GREY_300),
+                    border=Border.all(1, ft.Colors.GREY_300),
                     border_radius=8,
                 ),
                 ft.Divider(height=16),
@@ -455,7 +456,7 @@ def main(page: ft.Page):
                 ft.Container(
                     content=lista,
                     height=320,
-                    border=ft.border.all(1, ft.Colors.GREY_300),
+                    border=Border.all(1, ft.Colors.GREY_300),
                     border_radius=8,
                     padding=10,
                 ),
